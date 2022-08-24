@@ -126,8 +126,8 @@ export default function Home() {
           </nav>
 
           <section className={styles.socials}>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-tiktok"></i>
+            <i className="fa-brands fa-youtube"></i>
+            <i className="fa-brands fa-tiktok"></i>
           </section>
         </section>
 
