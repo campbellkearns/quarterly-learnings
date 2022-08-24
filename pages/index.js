@@ -63,16 +63,16 @@ export default function Home() {
           </section>
         </section>
 
-        <div className={styles.main}>
+        <div className={styles.testimonials}>
           <h1>What are people saying?</h1>
-          <section className={styles.testimonials}>
+          <section className={styles.quotes}>
             <article className={styles.card}>
               <aside className={styles.quote}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque suscipit enim error quia! Nihil amet cumque qui ad?</aside>
               <div className={styles.card}>
                 <Image src='/fro.jpg' width={75} height={75} />
                 <div>
-                  <h3>Lonnie Liston Smith</h3>
-                  <small>Lead Beat Keeper</small>
+                  <h2>Lonnie Liston Smith</h2>
+                  <p>Lead Beat Keeper</p>
                 </div>
               </div>
             </article>
@@ -81,8 +81,8 @@ export default function Home() {
               <div className={styles.card}>
                 <Image src='/fro.jpg' width={75} height={75} />
                 <div>
-                  <h3>Lonnie Liston Smith</h3>
-                  <small>Lead Beat Keeper</small>
+                  <h2>Lonnie Liston Smith</h2>
+                  <p>Lead Beat Keeper</p>
                 </div>
               </div>
             </article>
@@ -91,8 +91,8 @@ export default function Home() {
               <div className={styles.card}>
                 <Image src='/fro.jpg' width={75} height={75} />
                 <div>
-                  <h3>Lonnie Liston Smith</h3>
-                  <small>Lead Beat Keeper</small>
+                  <h2>Lonnie Liston Smith</h2>
+                  <p>Lead Beat Keeper</p>
                 </div>
               </div>
             </article>
