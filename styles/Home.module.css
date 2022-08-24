@@ -28,8 +28,10 @@
 
 .hero {
   width: 100%;
-  max-width: 980px;
-  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
 }
 
 .hero h1 {
@@ -41,12 +43,18 @@
 .hero h6 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  color: #355834
+  color: #355834;
+}
+
+.heroWrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -55,10 +63,19 @@
   gap: 100px;
 }
 
+.services {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
 .service {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  column-gap: 2rem;
   width: 80%;
   font-family: 'Open Sans', sans-serif;
   color: #80A1D4;
@@ -66,23 +83,33 @@
 }
 
 .service aside {
-  width: 33%;
+  width: 45%;
 }
 
 .serviceDescription h4 {
   color: #355834;
+  margin: 1rem 0;
 }
 
 .serviceDescription p {
   font-family: 'Inconsolata', sans-serif;
-  font-weight: 100;
+  font-weight: 600;
 }
 
 .testimonials {
+  max-width: 1280px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #355834;
 }
 
-.quote {
+.quotes {
+  display: flex;
+  color:#14281D;
+}
+
+.card:hover .quote {
   color: #6E633D
 }
 
@@ -153,7 +180,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #80A1D4;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
@@ -162,8 +189,7 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  border-color: #6E633D;
 }
 
 .card h2 {
