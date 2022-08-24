@@ -102,7 +102,15 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        text in the footer
+        <section className={styles.footerCta}>
+          <section>
+            <p>Keep up with the latest learnings!</p>
+          </section>
+          <section className={styles.inputBox}>
+            <input type='email' placeholder='Enter your email' />
+            <button>Get Started</button>
+          </section>
+        </section>
       </footer>
 
     </div>

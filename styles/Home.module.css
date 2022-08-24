@@ -107,6 +107,7 @@
 .quotes {
   display: flex;
   color:#14281D;
+  gap: 3rem;
 }
 
 .card:hover .quote {
@@ -114,19 +115,31 @@
 }
 
 .footer {
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
-  flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  font-family: 'Inconsolata', sans-serif;
+  color: #14281D;
+  background-color: #80A1D4;
 }
 
-.footer a {
+.footerCta {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex-grow: 1;
+  font-size: 1.5rem;
+}
+
+.footerCta section {
+  flex: 3;
+}
+
+.footerCta .inputBox {
+  flex: 2;
 }
 
 .title a {
