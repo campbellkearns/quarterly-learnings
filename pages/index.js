@@ -5,6 +5,7 @@ import logoPlaceholder from '../public/logo-placeholder.svg'
 import curriculumDesign from '../public/curriculum-design.png'
 import progDevOps from '../public/program-development.png'
 import instruction from '../public/instruction.png'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -23,7 +24,7 @@ export default function Home() {
             <li>About</li>
             <li>Services</li>
             <li>Testimonials</li>
-            <li>Blog</li>
+            <Link href='/blog'><a><li>Blog</li></a></Link>
             <li>Podcast</li>
           </ul>
         </nav>
@@ -119,7 +120,7 @@ export default function Home() {
               <li>About</li>
               <li>Services</li>
               <li>Testimonials</li>
-              <li>Blog</li>
+              <Link href='/blog'><a><li>Blog</li></a></Link>
               <li>Podcast</li>
             </ul>
           </nav>
