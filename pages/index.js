@@ -102,6 +102,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+
         <section className={styles.footerCta}>
           <section>
             <p>Keep up with the latest learnings!</p>
@@ -110,6 +111,27 @@ export default function Home() {
             <input type='email' placeholder='Enter your email' />
             <button>Get Started</button>
           </section>
+        </section>
+
+        <section className={styles.footerLinks}>
+          <nav className={styles.footerNav}>
+            <ul className={styles.navLinks}>
+              <li>About</li>
+              <li>Services</li>
+              <li>Testimonials</li>
+              <li>Blog</li>
+              <li>Podcast</li>
+            </ul>
+          </nav>
+
+          <section className={styles.socials}>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </section>
+        </section>
+
+        <section className={styles.legal}>
+          <p>© 2022 Quarterly Learnings. All rights reserved</p>
         </section>
       </footer>
 
