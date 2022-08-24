@@ -24,6 +24,7 @@
   gap: 6rem;
   font-family: 'Open Sans', sans-serif;
   color: #355834;
+  padding: 0;
 }
 
 .hero {
@@ -107,6 +108,7 @@
 .quotes {
   display: flex;
   color:#14281D;
+  gap: 3rem;
 }
 
 .card:hover .quote {
@@ -114,19 +116,47 @@
 }
 
 .footer {
+  max-width: 1280px;
+  margin: 0 auto;
   display: flex;
-  flex: 1;
-  padding: 2rem 0;
+  flex-direction: column;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  font-family: 'Inconsolata', sans-serif;
+  color: #14281D;
+  padding-top: 2rem;
 }
 
-.footer a {
+.footerCta {
+  padding: 2rem 0;
+  width: 100%;
+  background-color: #80A1D4;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-grow: 1;
+  font-size: 1.5rem;
+}
+
+.footerLinks {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #14281D;
+  padding: 2rem 0;
+}
+
+.socials {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.legal {
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  padding: 2rem 0;
 }
 
 .title a {
