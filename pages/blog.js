@@ -8,10 +8,12 @@ export default function Blog() {
 
     return (
         <Layout>
-            <section>
+            <div>
                 <h1>Some things I have been thinking about...</h1>
-                {posts.map(post => <h2>{post.Name}</h2>)}
-            </section>
+                <section className={styles.grid}>
+                    {posts.map(post => <h2>{post.Name}</h2>)}
+                </section>
+            </div>
         </Layout>
     )
 }
