@@ -3,8 +3,6 @@ import styles from '../styles/Home.module.css'
 import curriculumDesign from '../public/curriculum-design.png'
 import progDevOps from '../public/program-development.png'
 import instruction from '../public/instruction.png'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import Layout from '../components/layout'
 
 export default function Home() {

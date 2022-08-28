@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import styles from '../styles/Layout.module.css'
 import Head from "next/head";
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
     return (
         <div className={styles.container}>
             <Head>
