@@ -15,8 +15,10 @@
     list-style: none;
     display: flex;
     justify-content: space-around;
-    gap: 6rem;
     font-family: 'Open Sans', sans-serif;
     color: #355834;
     padding: 0;
+    gap: 6rem;
   }
+
+  

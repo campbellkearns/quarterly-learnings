@@ -1,5 +1,14 @@
-export default function Layout( {children, home}) {
+import Footer from "./Footer";
+import Navbar from "./Navbar";
+
+export default function Layout({ children, home }) {
     return (
-        
+        <>
+            <Navbar />
+            <>
+                {children}
+            </>
+            <Footer />
+        </>
     )
 }
