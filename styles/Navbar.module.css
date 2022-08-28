@@ -1,0 +1,22 @@
+.navWrapper {
+    padding: 2.5rem;
+    max-width: 1420px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navLinks {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 6rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #355834;
+    padding: 0;
+  }
