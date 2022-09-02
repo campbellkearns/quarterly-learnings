@@ -9,7 +9,7 @@ export default function Blog() {
 
     return (
         <Layout>
-            <h1>Some things I have been thinking about...</h1>
+            <h1 className={styles.pageTitle}>Writings</h1>
             <section className={styles.grid}>
                 {posts.map(post => (
                     <PostCard
