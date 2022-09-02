@@ -15,3 +15,7 @@
   color: #14281D;
   gap: 100px;
 }
+
+.children:has(h1) {
+  gap: 25px;
+}
