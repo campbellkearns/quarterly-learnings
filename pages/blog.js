@@ -1,5 +1,24 @@
+import Layout from '../components/layout'
+import PostCard from '../components/PostCard'
+import styles from '../styles/Blog.module.css'
+
+import { posts } from '../tmp/posts'
+
+
 export default function Blog() {
+
     return (
-        <h1>Some things I have been thinking about...</h1>
+        <Layout>
+            <h1 className={styles.pageTitle}>Writings</h1>
+            <section className={styles.grid}>
+                {posts.map(post => (
+                    <PostCard
+                        name={post.Name}
+                        date={new Date(post["Created On"]).toDateString()}
+                        imageUrl={post["Thumbnail image"]}
+                    />)
+                )}
+            </section>
+        </Layout>
     )
 }
