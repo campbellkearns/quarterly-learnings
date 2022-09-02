@@ -1,3 +1,5 @@
+import styles from '../styles/PostCard.module.css'
+
 export default function PostCard({ name }) {
     return (
         <div>
