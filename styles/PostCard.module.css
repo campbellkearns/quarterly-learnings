@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+}
+
+.postDetails {
+    display: flex;
+    flex-direction: column;
+}

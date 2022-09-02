@@ -12,7 +12,13 @@ export default function Blog() {
             <div>
                 <h1>Some things I have been thinking about...</h1>
                 <section className={styles.grid}>
-                    {posts.map(post => <PostCard name={post.Name} />)}
+                    {posts.map(post => (
+                        <PostCard
+                            name={post.Name}
+                            date={new Date(post["Created On"]).toDateString()}
+                            imageUrl={post["Thumbnail image"]}
+                             />)
+                    )}
                 </section>
             </div>
         </Layout>
