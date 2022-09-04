@@ -3,6 +3,7 @@ import PostCard from '../components/PostCard'
 import styles from '../styles/Blog.module.css'
 
 import { posts } from '../tmp/posts'
+// replace with imported function for retrieving filesystem post data
 
 
 export default function Blog() {
