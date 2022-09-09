@@ -4,6 +4,7 @@ import styles from '../styles/Blog.module.css'
 import { getSortedPostsData } from '../lib/posts'
 
 import { posts } from '../tmp/posts'
+import Link from 'next/link'
 // replace with imported function for retrieving filesystem post data
 
 
@@ -17,18 +18,23 @@ export async function getStaticProps() {
     }
 }
 
-export default function Blog({allPostsData}) {
+export default function Blog({ allPostsData }) {
 
     return (
         <Layout>
             <h1 className={styles.pageTitle}>Writings</h1>
             <section className={styles.grid}>
                 {allPostsData.map(post => (
-                    <PostCard
-                        name={post.title}
-                        date={new Date(post.dateCreated).toDateString()}
-                        imageUrl={post.imageUrl}
-                    />)
+                    <Link href={`/posts/${post.id}`} key={post.id}>
+                        <a>
+                            <PostCard
+                                name={post.title}
+                                date={new Date(post.dateCreated).toDateString()}
+                                imageUrl={post.imageUrl}
+                            />
+                        </a>
+                    </Link>
+                )
                 )}
             </section>
         </Layout>
