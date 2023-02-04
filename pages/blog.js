@@ -3,7 +3,6 @@ import PostCard from '../components/PostCard'
 import styles from '../styles/Blog.module.css'
 import { getSortedPostsData } from '../lib/posts'
 
-import { posts } from '../tmp/posts'
 import Link from 'next/link'
 // replace with imported function for retrieving filesystem post data
 
