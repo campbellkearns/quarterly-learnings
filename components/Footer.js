@@ -33,7 +33,7 @@ export default function Footer() {
         </section>
 
         <section className={styles.legal}>
-          <p>© 2022 Quarterly Learnings. All rights reserved</p>
+          <p>© 2023 Quarterly Learnings. All rights reserved</p>
         </section>
       </footer>
 
