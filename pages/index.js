@@ -22,13 +22,13 @@ export default function Home() {
           <Image src={progDevOps} width={400} height={300} />
           <aside className={styles.serviceDescription}>
             <h4>Program Development</h4>
-            <p>Teams with a continual learning culture perform better. Let's build your organization's internal learning capabilities</p>
+            <p>Teams with a continual learning culture perform better. Let&apos;s build your organization&apos;s internal learning capabilities</p>
           </aside>
         </section>
         <section className={styles.service}>
           <aside className={styles.serviceDescription}>
             <h4>Curriculum Design</h4>
-            <p>Tell us what you need to learn & we'll create a custom curriculum plan.</p>
+            <p>Tell us what you need to learn & we&apos;ll create a custom curriculum plan.</p>
           </aside>
           <Image src={curriculumDesign} width={400} height={300} />
         </section>
