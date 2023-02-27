@@ -18,7 +18,13 @@
     font-family: 'Open Sans', sans-serif;
     color: #355834;
     padding: 0;
-    gap: 6rem;
+    gap: 8%;
+  }
+
+  @media (min-width: 800px) {
+    .navLinks {
+      gap: 3%
+    }
   }
 
   
