@@ -55,7 +55,7 @@
 .navLinks {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-family: 'Open Sans', sans-serif;
     color: #355834;
     padding: 0;

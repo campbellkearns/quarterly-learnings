@@ -18,8 +18,8 @@ export default function Footer() {
           </nav>
 
           <section className={styles.socials}>
-            <i className="fa-brands fa-youtube"></i>
-            <i className="fa-brands fa-tiktok"></i>
+            <a href="https://www.youtube.com/@quarterlylearnings" target="_blank"><i className="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@quarterlylearnings" target="_blank"><i className="fa-brands fa-tiktok"></i></a>
           </section>
         </section>
 
