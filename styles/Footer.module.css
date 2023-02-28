@@ -15,10 +15,11 @@
     padding: 2rem 0;
     width: 100%;
     background-color: #80A1D4;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     font-size: 1.5rem;
+}
+
+.footerCta p {
+    text-align: center;
 }
 
 .footerLinks {
