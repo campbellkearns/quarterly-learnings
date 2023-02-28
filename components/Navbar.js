@@ -7,11 +7,14 @@ export default function Navbar() {
     return (
         <div className={styles.navWrapper}>
             <nav className={styles.navbar}>
-                <Image src={logoPlaceholder} fill />
+                <Link href='/'>
+                    <Image src={logoPlaceholder}
+                        width={"300"}
+                        height={"120"}
+                        layout="intrinsic"
+                    />
+                </Link>
                 <ul className={styles.navLinks}>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Testimonials</li>
                     <Link href='/blog'><a><li>Blog</li></a></Link>
                     <li>Podcast</li>
                 </ul>

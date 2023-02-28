@@ -54,8 +54,8 @@
   font-size: 2rem;
 }
 
-.service aside {
-  width: 45%;
+.serviceDescription {
+  width: 70%;
 }
 
 .serviceDescription h4 {
@@ -80,6 +80,22 @@
   display: flex;
   color:#14281D;
   gap: 3rem;
+}
+
+@media (max-width: 768px) {
+  .quotes {
+    flex-direction: column;
+  }
+  .serviceDescription {
+    width: 45%;
+  }
+  .serviceDescription h4 {
+    font-size: 1rem;
+  }
+  
+  .serviceDescription p {
+    font-size: 1rem;
+  }
 }
 
 .card:hover .quote {

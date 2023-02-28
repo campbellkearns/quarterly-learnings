@@ -15,10 +15,11 @@
     padding: 2rem 0;
     width: 100%;
     background-color: #80A1D4;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     font-size: 1.5rem;
+}
+
+.footerCta p {
+    text-align: center;
 }
 
 .footerLinks {
@@ -28,6 +29,16 @@
     align-items: center;
     color: #14281D;
     padding: 2rem 0;
+}
+
+
+@media (max-width: 768px) {
+    .footerLinks {
+        flex-direction: column;
+    }
+    .footerNav {
+        width: 100%;
+    }
 }
 
 .socials {
@@ -45,9 +56,9 @@
 .navLinks {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: 'Open Sans', sans-serif;
     color: #355834;
     padding: 0;
-    gap: 6rem;
+    gap: 8%;
 }

@@ -6,29 +6,20 @@ export default function Footer() {
         <footer className={styles.footer}>
 
         <section className={styles.footerCta}>
-          <section>
-            <p>Keep up with the latest learnings!</p>
-          </section>
-          <section className={styles.inputBox}>
-            <input type='email' placeholder='Enter your email' />
-            <button>Get Started</button>
-          </section>
+            <p>Keep up with the latest learnings on <Link href='/blog'>the blog!</Link></p>
         </section>
 
         <section className={styles.footerLinks}>
           <nav className={styles.footerNav}>
             <ul className={styles.navLinks}>
-              <li>About</li>
-              <li>Services</li>
-              <li>Testimonials</li>
               <Link href='/blog'><a><li>Blog</li></a></Link>
               <li>Podcast</li>
             </ul>
           </nav>
 
           <section className={styles.socials}>
-            <i className="fa-brands fa-youtube"></i>
-            <i className="fa-brands fa-tiktok"></i>
+            <a href="https://www.youtube.com/@quarterlylearnings" target="_blank"><i className="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@quarterlylearnings" target="_blank"><i className="fa-brands fa-tiktok"></i></a>
           </section>
         </section>
 
