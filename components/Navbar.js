@@ -11,7 +11,6 @@ export default function Navbar() {
                     <Image src={logoPlaceholder}
                         width={"300"}
                         height={"120"}
-                        sizes="(max-width: 300px) 100px"
                         layout="intrinsic"
                     />
                 </Link>
