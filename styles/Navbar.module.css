@@ -25,6 +25,9 @@
     .navLinks {
       gap: 3%
     }
+    .navWrapper {
+      padding: 0;
+    }
   }
 
   

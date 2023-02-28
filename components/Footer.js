@@ -6,13 +6,7 @@ export default function Footer() {
         <footer className={styles.footer}>
 
         <section className={styles.footerCta}>
-          <section>
-            <p>Keep up with the latest learnings!</p>
-          </section>
-          <section className={styles.inputBox}>
-            <input type='email' placeholder='Enter your email' />
-            <button>Get Started</button>
-          </section>
+            <p>Keep up with the latest learnings on <Link href='/blog'>the blog!</Link></p>
         </section>
 
         <section className={styles.footerLinks}>

@@ -13,7 +13,6 @@ export default function Home() {
         <div className={styles.heroWrapper}>
           <h1>Change starts within.</h1>
           <h6>Empower your employees with training that creates results.</h6>
-          <button>What should this button do?</button>
         </div>
       </section>
 
