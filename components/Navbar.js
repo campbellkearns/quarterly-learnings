@@ -13,9 +13,6 @@ export default function Navbar() {
                     layout="intrinsic" 
                 />
                 <ul className={styles.navLinks}>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Testimonials</li>
                     <Link href='/blog'><a><li>Blog</li></a></Link>
                     <li>Podcast</li>
                 </ul>
