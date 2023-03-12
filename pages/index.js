@@ -41,38 +41,9 @@ export default function Home() {
       </section>
 
       <div className={styles.testimonials}>
-        <h1>What are people saying?</h1>
+        
         <section className={styles.quotes}>
-          <article className={styles.card}>
-            <aside className={styles.quote}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque suscipit enim error quia! Nihil amet cumque qui ad?</aside>
-            <div className={styles.card}>
-              <Image src='/fro.jpg' width={75} height={75} />
-              <div>
-                <h2>Lonnie Liston Smith</h2>
-                <p>Lead Beat Keeper</p>
-              </div>
-            </div>
-          </article>
-          <article className={styles.card}>
-            <aside className={styles.quote}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque suscipit enim error quia! Nihil amet cumque qui ad?</aside>
-            <div className={styles.card}>
-              <Image src='/fro.jpg' width={75} height={75} />
-              <div>
-                <h2>Lonnie Liston Smith</h2>
-                <p>Lead Beat Keeper</p>
-              </div>
-            </div>
-          </article>
-          <article className={styles.card}>
-            <aside className={styles.quote}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque suscipit enim error quia! Nihil amet cumque qui ad?</aside>
-            <div className={styles.card}>
-              <Image src='/fro.jpg' width={75} height={75} />
-              <div>
-                <h2>Lonnie Liston Smith</h2>
-                <p>Lead Beat Keeper</p>
-              </div>
-            </div>
-          </article>
+          
         </section>
       </div>
 
