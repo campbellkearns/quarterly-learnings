@@ -1,6 +1,4 @@
 .navWrapper {
-    padding: 2.5rem;
-    max-width: 1420px;
     width: 100%;
     margin: 0 auto;
   }
@@ -39,4 +37,11 @@
     
   }
 
-  
+@media screen and (min-width: 1024px) {  
+    .navWrapper {
+    padding: 2.5rem;
+    max-width: 1420px;
+   
+  }
+}
+
