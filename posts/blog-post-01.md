@@ -1,37 +1,21 @@
 ---
-title: "4 Things To Consider When Asking People to Attend a Virtual Course"
-dateCreated: "2022-08-04"
+title: "Welcome to the blog"
+dateCreated: "2023-03-12"
 imageUrl: "/fro.jpg"
 ---
  
- ## Is it Worth Their Time
+Thank you for reading the Quarterly Learnings blog! Here, I will share some of my thoughts about learning and education, as well as my experiences in and out of a classroom setting. My focus, for now, will be software and the process of teaching & learning it but surely much of the topics I write about will apply to learning, writ large. 
+ 
+Quarterly Learnings is not about learning for the sake of learning (though there is value in practicing the skills required for effective learning); I want to focus on practical application of skills as the outcome of engaging in a learning journey.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quam veritatis sed excepturi nulla deserunt perferendis nostrum dolorum ratione iusto sint expedita alias odit, quibusdam dolor natus? 
+I have a particular interest in stories about career transformation through education. I created a bootcamp within a major home improvement retailer where the employees from other departments could come - with no experience - and learn how to build full-stack web applications. At the end of the 12 weeks, we would match them with internal teams and they would get a new role in the company as a software engineer. It was so much fun and made a difference in the lives of the employees but also the teams they joined - in many cases, the graduates knew more about the company than the engineering teams that they joined did.
 
-Natus libero veniam molestiae. Labore provident quibusdam nisi, impedit beatae incidunt autem suscipit sit ab dolorem mollitia? Maxime perferendis alias aut velit unde neque harum rerum obcaecati dignissimos blanditiis non dicta excepturi, quasi omnis est exercitationem eum. Sit facere, voluptate dignissimos fugiat quas quisquam molestias necessitatibus aliquam. 
+It is important that the people closest to the customer are able to provide their perspective when creating customer-focused solutions. Learning programs, especially if they are practical and custom-built, have the ability to close that gap by bringing solution-based skills to those with historical customer proximity.
 
-Nemo, suscipit ratione sapiente, quo laborum earum minima, doloribus error labore culpa fugiat. Mollitia esse optio cum, error soluta, vero temporibus vel quia blanditiis, officia officiis? 
+Having been involved in the creation and execution of dozens of learning experiences with that exact aim, I decided I should write about and talk about it and here we are. Here are some things you can expect from the Quarterly Learnings blog:
 
- ## Will they learn a skill they can use outside of work?
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quam veritatis sed excepturi nulla deserunt perferendis nostrum dolorum ratione iusto sint expedita alias odit, quibusdam dolor natus? 
-
-Natus libero veniam molestiae. Labore provident quibusdam nisi, impedit beatae incidunt autem suscipit sit ab dolorem mollitia? Maxime perferendis alias aut velit unde neque harum rerum obcaecati dignissimos blanditiis non dicta excepturi, quasi omnis est exercitationem eum. Sit facere, voluptate dignissimos fugiat quas quisquam molestias necessitatibus aliquam. 
-
-Nemo, suscipit ratione sapiente, quo laborum earum minima, doloribus error labore culpa fugiat. Mollitia esse optio cum, error soluta, vero temporibus vel quia blanditiis, officia officiis? 
-
- ## Live or Recorded?
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quam veritatis sed excepturi nulla deserunt perferendis nostrum dolorum ratione iusto sint expedita alias odit, quibusdam dolor natus? 
-
-Natus libero veniam molestiae. Labore provident quibusdam nisi, impedit beatae incidunt autem suscipit sit ab dolorem mollitia? Maxime perferendis alias aut velit unde neque harum rerum obcaecati dignissimos blanditiis non dicta excepturi, quasi omnis est exercitationem eum. Sit facere, voluptate dignissimos fugiat quas quisquam molestias necessitatibus aliquam. 
-
-Nemo, suscipit ratione sapiente, quo laborum earum minima, doloribus error labore culpa fugiat. Mollitia esse optio cum, error soluta, vero temporibus vel quia blanditiis, officia officiis? 
-
- ## Does it need to be a course?
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quam veritatis sed excepturi nulla deserunt perferendis nostrum dolorum ratione iusto sint expedita alias odit, quibusdam dolor natus? 
-
-Natus libero veniam molestiae. Labore provident quibusdam nisi, impedit beatae incidunt autem suscipit sit ab dolorem mollitia? Maxime perferendis alias aut velit unde neque harum rerum obcaecati dignissimos blanditiis non dicta excepturi, quasi omnis est exercitationem eum. Sit facere, voluptate dignissimos fugiat quas quisquam molestias necessitatibus aliquam. 
-
-Nemo, suscipit ratione sapiente, quo laborum earum minima, doloribus error labore culpa fugiat. Mollitia esse optio cum, error soluta, vero temporibus vel quia blanditiis, officia officiis? 
+- stories from students
+- my perspectives on learning
+- case studies from industry
+- strategies for education (both in the classroom & as an organization)
+ 
