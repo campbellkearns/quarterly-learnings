@@ -8,13 +8,13 @@ export default function Navbar() {
         <div className={styles.navWrapper}>
             <nav className={styles.navbar}>
                 <div>
-                    <Link href='/'>
+                    <a href='/'>
                         <Image src={logoPlaceholder}
                             width={"300"}
                             height={"120"}
                             layout="intrinsic"
                             />
-                    </Link>
+                    </a>
                 </div>
                 <ul className={styles.navLinks}>
                     <Link href='/blog'><a><li>Blog</li></a></Link>
