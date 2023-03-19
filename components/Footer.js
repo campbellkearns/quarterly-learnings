@@ -13,7 +13,7 @@ export default function Footer() {
         <nav className={styles.footerNav}>
           <ul className={styles.navLinks}>
             <Link href='/blog'><a><li>Blog</li></a></Link>
-            <a href="https://podcasters.spotify.com/pod/show/quarterlylearnings" target="_blank"><li>Podcast</li></a>
+            <a href="https://podcasters.spotify.com/pod/show/quarterlylearnings" target="_blank" rel="noopener noreferrer"><li>Podcast</li></a>
           </ul>
         </nav>
 
