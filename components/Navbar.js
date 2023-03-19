@@ -12,6 +12,7 @@ export default function Navbar() {
                         <Image src={logoPlaceholder}
                             width={"300"}
                             height={"120"}
+                            alt={'Quarterly Learnings logo'}
                             layout="intrinsic"
                             />
                     </a>
