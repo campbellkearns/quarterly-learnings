@@ -7,16 +7,19 @@ export default function Navbar() {
     return (
         <div className={styles.navWrapper}>
             <nav className={styles.navbar}>
-                <Link href='/'>
-                    <Image src={logoPlaceholder}
-                        width={"300"}
-                        height={"120"}
-                        layout="intrinsic"
-                    />
-                </Link>
+                <div>
+                    <a href='/'>
+                        <Image src={logoPlaceholder}
+                            width={"300"}
+                            height={"120"}
+                            alt={'Quarterly Learnings logo'}
+                            layout="intrinsic"
+                            />
+                    </a>
+                </div>
                 <ul className={styles.navLinks}>
                     <Link href='/blog'><a><li>Blog</li></a></Link>
-                    <li>Podcast</li>
+                    <a href="https://podcasters.spotify.com/pod/show/quarterlylearnings" target="_blank"><li>Podcast</li></a>
                 </ul>
             </nav>
         </div>

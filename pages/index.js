@@ -18,7 +18,7 @@ export default function Home() {
 
       <section className={styles.services}>
         <section className={styles.service}>
-          <Image src={progDevOps} width={400} height={300} />
+          <Image src={progDevOps} width={400} height={300} alt={''}/>
           <aside className={styles.serviceDescription}>
             <h4>Program Development</h4>
             <p>Teams with a continual learning culture perform better. Let&apos;s build your organization&apos;s internal learning capabilities</p>
@@ -29,10 +29,10 @@ export default function Home() {
             <h4>Curriculum Design</h4>
             <p>Tell us what you need to learn & we&apos;ll create a custom curriculum plan.</p>
           </aside>
-          <Image src={curriculumDesign} width={400} height={300} />
+          <Image src={curriculumDesign} width={400} height={300} alt={''} />
         </section>
         <section className={styles.service}>
-          <Image src={instruction} width={400} height={300} />
+          <Image src={instruction} width={400} height={300} alt={''} />
           <aside className={styles.serviceDescription}>
             <h4>Instruction</h4>
             <p>We will deliver bespoke, instructor-led training to your teams - virtually or in-person.</p>
@@ -41,38 +41,9 @@ export default function Home() {
       </section>
 
       <div className={styles.testimonials}>
-        <h1>What are people saying?</h1>
+        
         <section className={styles.quotes}>
-          <article className={styles.card}>
-            <aside className={styles.quote}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque suscipit enim error quia! Nihil amet cumque qui ad?</aside>
-            <div className={styles.card}>
-              <Image src='/fro.jpg' width={75} height={75} />
-              <div>
-                <h2>Lonnie Liston Smith</h2>
-                <p>Lead Beat Keeper</p>
-              </div>
-            </div>
-          </article>
-          <article className={styles.card}>
-            <aside className={styles.quote}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque suscipit enim error quia! Nihil amet cumque qui ad?</aside>
-            <div className={styles.card}>
-              <Image src='/fro.jpg' width={75} height={75} />
-              <div>
-                <h2>Lonnie Liston Smith</h2>
-                <p>Lead Beat Keeper</p>
-              </div>
-            </div>
-          </article>
-          <article className={styles.card}>
-            <aside className={styles.quote}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque neque suscipit enim error quia! Nihil amet cumque qui ad?</aside>
-            <div className={styles.card}>
-              <Image src='/fro.jpg' width={75} height={75} />
-              <div>
-                <h2>Lonnie Liston Smith</h2>
-                <p>Lead Beat Keeper</p>
-              </div>
-            </div>
-          </article>
+          
         </section>
       </div>
 

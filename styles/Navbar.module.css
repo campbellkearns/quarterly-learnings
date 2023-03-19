@@ -1,6 +1,4 @@
 .navWrapper {
-    padding: 2.5rem;
-    max-width: 1420px;
     width: 100%;
     margin: 0 auto;
   }
@@ -10,8 +8,13 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .navbar Link {
+    flex: .5;
+  }
   
   .navLinks {
+    width: 45%;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -20,14 +23,25 @@
     padding: 0;
     gap: 8%;
   }
-
-  @media (max-width: 800px) {
+  
+  
+  @media screen and (min-width: 768px) {
     .navLinks {
-      gap: 3%
+      font-size: 1.25rem;
+      gap: 2%;
     }
+
     .navWrapper {
       padding: 0;
     }
+    
   }
 
-  
+@media screen and (min-width: 1024px) {  
+    .navWrapper {
+    padding: 2.5rem;
+    max-width: 1420px;
+   
+  }
+}
+

@@ -1,6 +1,11 @@
+@media screen and (min-width: 768px) {
+    .grid {
+        grid-template: repeat(4, 1fr) / repeat(2, 1fr);
+    }
+}
+
 .grid {
     display: grid;
-    grid-template: repeat(4, 1fr) / repeat(2, 1fr);
     column-gap: 1rem;
     row-gap: 4rem;
 
