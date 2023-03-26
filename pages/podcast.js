@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import EpisodePlayer from "../components/EpisodePlayer";
 import Layout from "../components/layout";
 
 export default function Podcast() {
@@ -27,8 +28,11 @@ export default function Podcast() {
     }
 
     return (
-        <Layout>
+        <Layout className="gap-10">
             <h3 className="text-3xl md:text-4xl">Podcast Episodes</h3>
+
+            <EpisodePlayer />
+            <h6 className="text-lg md:text-xl">Latest Episode</h6>
             <section className="container mx-auto flex flex-col justify-evenly gap-y-10">
                 {
                     episodes.map(episode => {
