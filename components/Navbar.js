@@ -21,7 +21,7 @@ export default function Navbar() {
                 </div>
                 <ul className={styles.navLinks}>
                     <Link href='/blog'><a><li>Blog</li></a></Link>
-                    <a href="https://podcasters.spotify.com/pod/show/quarterlylearnings" target="_blank" rel="noopener noreferrer"><li>Podcast</li></a>
+                    <Link href='/podcast'><a><li>Podcast</li></a></Link>
                 </ul>
             </nav>
         </div>
