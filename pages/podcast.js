@@ -28,7 +28,7 @@ export default function Podcast() {
     }
 
     return (
-        <Layout className="gap-10">
+        <Layout>
             <h3 className="text-3xl md:text-4xl">Podcast Episodes</h3>
 
             <EpisodePlayer />
