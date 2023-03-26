@@ -13,7 +13,7 @@ export default function Podcast() {
                 let xmlContent = parser.parseFromString(data, 'application/xml');
                 let items = xmlContent.getElementsByTagName('item');
                 items = Array.from(items);
-                console.log(items);
+                console.log(items)
                 setEpisodes(items);
             })
     }, [])
@@ -26,19 +26,31 @@ export default function Podcast() {
         return text;
     }
 
-
     return (
         <Layout>
-            <h1>Podcast Episodes</h1>
-            <section>
+            <h3 className="text-3xl md:text-4xl">Podcast Episodes</h3>
+            <section className="container mx-auto flex flex-col justify-evenly gap-y-10">
                 {
                     episodes.map(episode => {
                         return (
-                            <article key = {episode.firstElementChild.textContent}>
-                                <h3>Episode: {episode.firstElementChild.textContent}</h3>
-                                <p>{parseEpisodeData(episode.children[1].innerHTML).substring(0, 400)}...</p>
-                                <p>{parseEpisodeData(episode.children[5].innerHTML)}</p>
-                                <hr />
+                            <article
+                                className='text-green-dark mb-4'
+                                key={episode.firstElementChild.textContent}
+                            >
+                                <a
+                                    href={episode.children[2].innerHTML}
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    <h3 className='text-3xl md:text-4xl mb-2'>
+                                        {episode.firstElementChild.textContent}
+                                    </h3>
+                                </a>
+                                <p className='mb-2'>{new Date(parseEpisodeData(episode.children[5].innerHTML)).toDateString()}</p>
+                                <p>{
+                                    episode.children[0].textContent === "Trailer" ?
+                                        parseEpisodeData(episode.children[1].innerHTML).substring(0, 216)
+                                        : parseEpisodeData(episode.children[1].innerHTML).substring(0, 400)
+                                }...</p>
                             </article>
                         )
                     })
