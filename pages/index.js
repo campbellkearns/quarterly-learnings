@@ -19,29 +19,32 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={styles.services}>
-        <section className={styles.service}>
-          <Image src={progDevOps} width={400} height={300} alt={''}/>
-          <aside className={styles.serviceDescription}>
-            <h4>Program Development</h4>
-            <p>Teams with a continual learning culture perform better. Let&apos;s build your organization&apos;s internal learning capabilities</p>
+
+        <section className='col-span-full sm:col-span-2 p-4 bg-tertiary text-white text-center rounded'>
+          <aside>
+            <h4 className='text-2xl font-serif mb-2'>Ongoing Workshops</h4>
+            <p className='font-sans mb-4'>1/2 day to multi-day workshops to improve your skills</p>
           </aside>
-        </section>
-        <section className={styles.service}>
-          <aside className={styles.serviceDescription}>
-            <h4>Curriculum Design</h4>
-            <p>Tell us what you need to learn & we&apos;ll create a custom curriculum plan.</p>
-          </aside>
-          <Image src={curriculumDesign} width={400} height={300} alt={''} />
-        </section>
-        <section className={styles.service}>
           <Image src={instruction} width={400} height={300} alt={''} />
-          <aside className={styles.serviceDescription}>
-            <h4>Instruction</h4>
-            <p>We will deliver bespoke, instructor-led training to your teams - virtually or in-person.</p>
-          </aside>
         </section>
-      </section>
+
+
+        <section className='col-span-full sm:col-span-1 p-4 bg-tertiary text-white text-center rounded'>
+          <aside>
+            <h4 className='text-2xl font-serif mb-2'>Curriculum Design</h4>
+            <p className='font-sans mb-4'>We'll help you design a custom curriculum targeted to your initiative</p>
+          </aside>
+          <Image src={curriculumDesign} width={400} height={300} alt={''}/>
+        </section>
+
+        <section className='col-span-full sm:col-span-3 p-4 bg-tertiary text-white text-center rounded'>
+          <aside>
+            <h4 className='text-2xl font-serif mb-2'>Custom Software Training</h4>
+            <p className='font-sans mb-4'>Enroll your team in a skill-based workshop</p>
+          </aside>
+          <Image src={progDevOps} width={400} height={300} alt={''} />
+        </section>
+        
 
       <div className={styles.testimonials}>
         
