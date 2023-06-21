@@ -4,15 +4,18 @@ import curriculumDesign from '../public/curriculum-design.png'
 import progDevOps from '../public/program-development.png'
 import instruction from '../public/instruction.png'
 import Layout from '../components/layout'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <Layout className={styles.container}>
-
-      <section className={styles.hero}>
-        <div className={styles.heroWrapper}>
-          <h1>Change starts within.</h1>
-          <h6>Empower your employees with training that creates results.</h6>
+    <Layout>
+      <section className='col-span-3 p-4 bg-secondary text-white text-center rounded'>
+        <div className=''>
+          <h1 className='text-4xl font-serif mb-2'>Change starts within.</h1>
+          <h6 className='font-sans mb-4'>Empower your employees with training that creates results.</h6>
+          <Link href="/services">
+            <p className="bg-primary text-tertiary px-6 py-2 rounded">Learn with us</p>
+          </Link>
         </div>
       </section>
 

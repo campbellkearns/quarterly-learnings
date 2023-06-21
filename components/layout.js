@@ -19,7 +19,7 @@ export default function Layout({ children }) {
                     />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
-                <main className={""}>{children}</main>
+                {children}
                 <Footer />
             </div>
         </>
