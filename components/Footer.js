@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="col-span-full sm:col-span-1 p-4 bg-secondary rounded">
         <h3 className="text-xl font-serif mb-2">Contact</h3>
         <p className="font-sans mb-2">info@quarterlylearnings.com</p>
-        <div className="flex text-lg space-x-4">
+        <div className="flex items-center text-lg space-x-4">
           <Link href="/podcast">
             <i className="fas fa-podcast text-accent hover:text-primary"></i>
           </Link>
