@@ -45,7 +45,7 @@ export default function Home() {
                         Curriculum Design
                     </h4>
                     <p className="font-sans mb-4">
-                        We'll help you design a custom curriculum targeted to
+                        We&apos;ll help you design a custom curriculum targeted to
                         your initiative
                     </p>
                 </aside>
