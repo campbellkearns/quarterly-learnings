@@ -8,8 +8,8 @@ const Contact = () => {
             <main className="col-span-3 p-4 space-y-8">
                 <h1 className="text-4xl font-serif">Get In Touch</h1>
 
-                <section className="grid grid-cols-1 md:grid-cols-3 gap-4 p-6 text-white">
-                    <div className="col-span-1 flex flex-col gap-y-6 md:justify-evenly bg-tertiary p-6 ">
+                <section className="grid grid-cols-1 md:grid-cols-3 gap-4 text-white">
+                    <div className="col-span-1 flex flex-col gap-y-6 md:justify-evenly bg-tertiary p-6 rounded">
                         <div className="col-span-full row-span-1 lg:col-span-1 ">
                             <h2 className="text-2xl font-serif mb-4">
                                 Social Media
@@ -43,7 +43,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="col-span-full md:row-start-1 md:col-span-2 bg-tertiary p-6">
+                    <div className="col-span-full md:row-start-1 md:col-span-2 bg-tertiary p-6 rounded">
                         <h2 className="text-2xl font-serif mb-4">
                             How Can I Help?
                         </h2>
