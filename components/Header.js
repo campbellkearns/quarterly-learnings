@@ -36,17 +36,17 @@ export default function Header() {
                     {/* Mobile Navigation */}
                     <div className="lg:hidden">
                         <button
-                            className="text-lg text-white hover:text-primary focus:outline-none"
+                            className="text-lg text-primary focus:outline-none"
                             onClick={toggleMobileMenu}
                         >
                             {isMobileMenuOpen ? (
                                 <i
                                     className={
-                                        "fa-regular fa-circle-xmark fa-xl"
+                                        "fa-regular fa-circle-xmark fa-lg"
                                     }
                                 />
                             ) : (
-                                <i className={"fa-solid fa-bars"} />
+                                <i className={"fa-solid fa-bars fa-lg"} />
                             )}
                         </button>
                     </div>
