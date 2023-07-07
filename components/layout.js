@@ -1,11 +1,10 @@
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Header from "./Header";
 import Head from "next/head";
 
 export default function Layout({ children }) {
     return (
         <>
-            <Navbar />
+            <Header />
             <div className="grid grid-cols-3 gap-4 px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <Head>
                     <title>Quarterly Learnings</title>
