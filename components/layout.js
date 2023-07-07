@@ -1,4 +1,3 @@
-import Footer from "./Footer";
 import Header from "./Header";
 import Head from "next/head";
 
