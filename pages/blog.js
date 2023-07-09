@@ -28,7 +28,6 @@ export default function Blog({ allPostsData }) {
                             </Link>
                         </h2>
                         <p className="text-sm text-accent mb-2">{new Date(post.dateCreated).toDateString()}</p>
-                        {/* <p className="text-white">{post.excerpt}</p> */}
                     </article>
                 ))}
             </section>
