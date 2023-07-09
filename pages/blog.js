@@ -18,18 +18,20 @@ export async function getStaticProps() {
 export default function Blog({ allPostsData }) {
     return (
         <Layout>
-            <h1 className="col-span-3 text-2xl">Writings</h1>
-            {allPostsData.map((post) => (
-                <article className="col-span-2" key={post.id}>
-                    <Link href={`/posts/${post.id}`}>
-                        <PostCard
-                            name={post.title}
-                            date={new Date(post.dateCreated).toDateString()}
-                            imageUrl={post.imageUrl}
-                        />
-                    </Link>
-                </article>
-            ))}
+            <h1 className="col-span-full text-4xl font-serif text-primary mb-8">Writings</h1>
+            <section className="col-span-full space-y-6">
+                {allPostsData.map((post) => (
+                    <article className="bg-tertiary p-4 rounded" key={post.id}>
+                        <h2 className="text-2xl font-serif text-white mb-2">
+                            <Link href={`/posts/${post.id}`}>
+                                <a className="hover:underline">{post.title}</a>
+                            </Link>
+                        </h2>
+                        <p className="text-sm text-accent mb-2">{new Date(post.dateCreated).toDateString()}</p>
+                        {/* <p className="text-white">{post.excerpt}</p> */}
+                    </article>
+                ))}
+            </section>
         </Layout>
     );
 }
