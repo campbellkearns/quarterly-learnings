@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Layout from "../../components/layout";
 import { getAllPostIds, getPostData } from "../../lib/posts";
-import styles from '../../styles/BlogPost.module.css';
+import Link from "next/link";
 
 export async function getStaticProps({ params }) {
     const postData = await getPostData(params.id);
@@ -28,11 +28,18 @@ export default function Post({postData}) {
             <Head>
                 <title>{ postData.title }</title>
             </Head>
-            <article>
-                <h1 className={styles.postTitle}>{ postData.title }</h1>
-                <p>{ postData.dateCreated }</p>
-                <div className={styles.postText} dangerouslySetInnerHTML={{ __html: postData.postHtml }} />    
-            </article>
+            <main className="col-span-full">
+                <article className="prose prose-lg max-w-2xl mx-auto">
+                    <h1 className='text-4xl font-serif mb-8'>{ postData.title }</h1>
+                    <p className="text-sm text-accent mb-4">{ new Date(postData.dateCreated).toDateString() }</p>
+                    <div className="prose prose-zinc" dangerouslySetInnerHTML={{ __html: postData.postHtml }} />    
+                    <p className="mt-8">
+                        <Link href="/blog">
+                            <a className="text-primary hover:underline">&larr; Back</a>
+                        </Link>
+                    </p>
+                </article>
+            </main>
         </Layout>
     )
 }
