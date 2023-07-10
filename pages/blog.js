@@ -1,5 +1,4 @@
 import Layout from "../components/layout";
-import PostCard from "../components/PostCard";
 import { getSortedPostsData } from "../lib/posts";
 
 import Link from "next/link";
