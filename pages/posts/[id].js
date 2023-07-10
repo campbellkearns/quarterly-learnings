@@ -29,10 +29,10 @@ export default function Post({postData}) {
                 <title>{ postData.title }</title>
             </Head>
             <main className="col-span-full">
-                <article className="prose max-w-2xl mx-auto">
+                <article className="prose prose-lg max-w-2xl mx-auto">
                     <h1 className='text-4xl font-serif mb-8'>{ postData.title }</h1>
                     <p className="text-sm text-accent mb-4">{ new Date(postData.dateCreated).toDateString() }</p>
-                    <div className="prose prose-lg text-gray-800" dangerouslySetInnerHTML={{ __html: postData.postHtml }} />    
+                    <div className="prose prose-zinc" dangerouslySetInnerHTML={{ __html: postData.postHtml }} />    
                     <p className="mt-8">
                         <Link href="/blog">
                             <a className="text-primary hover:underline">&larr; Back</a>
