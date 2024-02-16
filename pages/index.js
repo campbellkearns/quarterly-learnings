@@ -26,7 +26,7 @@ export default function Home() {
                         and automate with the latest software tools.
                     </h6>
                     <Link href="/contact">
-                        <p className="bg-primary text-tertiary px-6 py-2 rounded">
+                        <p className="bg-primary text-tertiary px-6 py-2 rounded cursor-pointer">
                             Schedule your workshop.
                         </p>
                     </Link>

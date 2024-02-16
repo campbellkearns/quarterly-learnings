@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import styles from '../styles/Footer.module.css'
 
 export default function Footer() {
   return (
@@ -22,7 +21,7 @@ export default function Footer() {
       <div className="col-span-full sm:col-span-1 p-4 bg-secondary rounded">
         <h3 className="text-xl font-serif mb-2">Quarterly Learnings</h3>
         <ul className="space-y-2">
-          <li><Link href="/"><a className="text-accent hover:underline">About Us</a></Link></li>
+          <li><Link href="/"><a className="text-accent hover:underline hidden">About Us</a></Link></li>
           <li><Link href="/contact"><a className="text-accent hover:underline">Contact</a></Link></li>
         </ul>
       </div>
@@ -42,8 +41,8 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <section>
-        <p>© 2023 Quarterly Learnings. All rights reserved</p>
+      <section className="text-primary">
+        <p>© 2024 Quarterly Learnings. All rights reserved.</p>
       </section>
     </footer>
 
