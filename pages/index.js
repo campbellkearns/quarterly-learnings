@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import curriculumDesign from "../public/curriculum-design.png";
 import progDevOps from "../public/program-development.png";
 import instruction from "../public/instruction.png";
-import instructionRear from "../public/instruction-rear.png";
+import instructionRear from "../public/instruction-rear.jpg";
 import Layout from "../components/layout";
 import Link from "next/link";
 import Footer from "../components/Footer";
@@ -17,7 +17,7 @@ export default function Home() {
                         <h1 className="text-4xl font-serif mb-2 text-wrap">
                             Empower Your Team with Cutting-Edge Tech Skills.
                         </h1>
-                        <Image src={instructionRear} alt={""} />
+                        <Image src={instructionRear} alt={"Brandon Campbell-Kearns, seen from the rear of a room, teaching digital skills to a group of professionals, with a focus on web development."} />
                     </div>
                     <div>
 
