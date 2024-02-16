@@ -43,7 +43,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div className="col-span-full md:row-start-1 md:col-span-2 bg-tertiary p-6 rounded">
+                    <div className="col-span-full md:row-start-1 md:col-span-2 bg-primary md:bg-slate-400 p-6 rounded">
                         <h2 className="text-2xl font-serif mb-4">
                             How Can I Help?
                         </h2>
