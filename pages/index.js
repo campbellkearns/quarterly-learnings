@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import curriculumDesign from "../public/curriculum-design.png";
 import progDevOps from "../public/program-development.png";
 import instruction from "../public/instruction.png";
+import instructionRear from "../public/instruction-rear.png";
 import Layout from "../components/layout";
 import Link from "next/link";
 import Footer from "../components/Footer";
@@ -12,19 +13,43 @@ export default function Home() {
         <Layout>
             <section className="col-span-3 p-4 bg-secondary text-white text-center rounded">
                 <div className="">
-                    <h1 className="text-4xl font-serif mb-2">
-                        Change starts within.
-                    </h1>
-                    <h6 className="font-sans mb-4">
-                        Empower your employees with training that creates
-                        results.
+                    <div className="">
+                        <h1 className="text-4xl font-serif mb-2 text-wrap">
+                            Empower Your Team with Cutting-Edge Tech Skills.
+                        </h1>
+                        <Image src={instructionRear} alt={""} />
+                    </div>
+                    <div>
+
+                    <h6 className="font-sans mb-4 text-wrap">
+                        Unleash creativity and innovation by learning to build
+                        and automate with the latest software tools.
                     </h6>
-                    <Link href="/services">
+                    <Link href="/contact">
                         <p className="bg-primary text-tertiary px-6 py-2 rounded">
-                            Learn with us
+                            Schedule your workshop.
                         </p>
                     </Link>
+                    </div>
                 </div>
+            </section>
+
+            <section className="col-span-full sm:col-span-1 p-4 bg-tertiary text-white text-center rounded">
+                <aside>
+                    <h4 className="text-2xl font-serif mb-2">
+                        Curriculum Design
+                    </h4>
+                    <p className="font-sans mb-4">
+                        We&apos;ll help you design a custom curriculum targeted
+                        to your initiative
+                    </p>
+                </aside>
+                <Image
+                    src={curriculumDesign}
+                    width={400}
+                    height={300}
+                    alt={""}
+                />
             </section>
 
             <section className="col-span-full sm:col-span-2 p-4 bg-tertiary text-white text-center rounded">
@@ -37,24 +62,6 @@ export default function Home() {
                     </p>
                 </aside>
                 <Image src={instruction} width={400} height={300} alt={""} />
-            </section>
-
-            <section className="col-span-full sm:col-span-1 p-4 bg-tertiary text-white text-center rounded">
-                <aside>
-                    <h4 className="text-2xl font-serif mb-2">
-                        Curriculum Design
-                    </h4>
-                    <p className="font-sans mb-4">
-                        We&apos;ll help you design a custom curriculum targeted to
-                        your initiative
-                    </p>
-                </aside>
-                <Image
-                    src={curriculumDesign}
-                    width={400}
-                    height={300}
-                    alt={""}
-                />
             </section>
 
             <section className="col-span-full sm:col-span-3 p-4 bg-tertiary text-white text-center rounded">
