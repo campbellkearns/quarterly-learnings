@@ -76,11 +76,13 @@ export default function Home() {
                 <Image src={progDevOps} width={400} height={300} alt={""} />
             </section>
 
-            <div className={styles.testimonials}>
-                <section className={styles.quotes}></section>
-            </div>
+      <div className={styles.testimonials}>
+        
+        <section className={styles.quotes}>
+          
+        </section>
+      </div>
 
-            <Footer />
-        </Layout>
-    );
+    </Layout>
+  )
 }
