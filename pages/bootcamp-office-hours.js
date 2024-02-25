@@ -48,7 +48,7 @@ export default function BootcampOfficeHours() {
             </section>
 
             {/* HOW IT WORKS */}
-            <section className="col-span-3 md:col-span-2 bg-neutral p-6 rounded-lg shadow-md my-6">
+            <section className="flex flex-col items-center col-span-3 md:col-span-2 bg-neutral p-6 rounded-lg shadow-md my-6">
                 <h2 className="text-2xl font-sans font-bold text-white">
                     How It Works
                 </h2>
@@ -100,7 +100,7 @@ export default function BootcampOfficeHours() {
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     {/* question */}
-                    <div className="bg-tertiary p-4 rounded-lg shadow">
+                    <div className="bg-primary p-4 rounded-lg shadow">
                         <h3 className="font-serif font-bold text-xl text-white">
                             What can I ask during office hours?
                         </h3>
@@ -109,7 +109,7 @@ export default function BootcampOfficeHours() {
                         </p>
                     </div>
                     {/* question */}
-                    <div className="bg-tertiary p-4 rounded-lg shadow">
+                    <div className="bg-primary p-4 rounded-lg shadow">
                         <h3 className="font-serif font-bold text-xl text-white">
                             Can I just give you some code and you fix it for me?
                         </h3>
@@ -118,7 +118,7 @@ export default function BootcampOfficeHours() {
                         </p>
                     </div>
                     {/* question */}
-                    <div className="bg-tertiary p-4 rounded-lg shadow">
+                    <div className="bg-primary p-4 rounded-lg shadow">
                         <h3 className="font-serif font-bold text-xl text-white">
                             I want to schedule more than one session. Is that okay?
                         </h3>
