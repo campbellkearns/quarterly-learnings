@@ -1,5 +1,6 @@
 export const offering = {
     pageTitle: "Bootcamp Office Hours",
+    metaDescription: "Sign up for exclusive office hours for bootcamp students. Get personalized attention, experienced guidance, and flexible scheduling.",
     heading: "Exclusive Office Hours for Bootcamp Students",
     description: "Book a one-on-one session to help you move forward.",
     cta: "Reserve Now",

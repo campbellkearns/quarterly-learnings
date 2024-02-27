@@ -8,6 +8,7 @@ export default function BootcampOfficeHours() {
         <Layout>
             <Head>
                 <title>{offering.title}</title>
+                <meta name="description" content={offering.metaDescription}></meta>
             </Head>
             {/* HEADLINE */}
             <section className="col-span-3 bg-primary p-6 text-white rounded-lg shadow-md">
