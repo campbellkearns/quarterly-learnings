@@ -1,5 +1,6 @@
 export const offering = {
-    title: "Exclusive Bootcamp Office Hours",
+    pageTitle: "Bootcamp Office Hours",
+    heading: "Exclusive Office Hours for Bootcamp Students",
     description: "Book a one-on-one session to help you move forward.",
     cta: "Reserve Now",
     benefits: [
@@ -16,14 +17,24 @@ export const offering = {
             description: "Choose a time that fits your class or work schedule."
         }
     ],
-    howItWorks: [
-        "Identify a concept or question you need help with.",
-        "Choose the best time for your schedule via Calendly.",
-        "Receive a confirmation email with a link to the video conference.",
-        "Show up and get the help you need to keep moving forward."
-    ],
-    faq: [
-        {
+    offeringDetails:{
+        title: "How It Works",
+        steps:[
+            "Identify a concept or question you need help with.",
+            "Choose the best time for your schedule via Calendly.",
+            "Receive a confirmation email with a link to the video conference.",
+            "Show up and get the help you need to keep moving forward."
+        ],
+        cta: "Book Now",
+    },
+    video: {
+        title: "Bootcamp Office Hours Overview",
+        url: "https://www.youtube.com/embed/Q6MemVxEquE",
+    },
+    faq: {
+        title: "Fervently Anticipated Questions",
+        questions:[
+            {
             question: "What can I ask during office hours?",
             answer: "Anything related to your bootcamp experience. From technical questions to career advice."
         },
@@ -36,7 +47,7 @@ export const offering = {
             answer: "I appreciate your trust. In the notes section of the Calendly form, please indicate that you are scheduling multiple sessions and, then, book the second session."
         }
     ],
-    cta: "Reserve Now",
+},
     heroImage: "/images/office-hours.jpg",
     altText: "A person working on a laptop",
  };
