@@ -1,9 +1,9 @@
 import Link from 'next/link'
 
-export default function Footer() {
+export default function Footer(props) {
   return (
     <footer className="col-span-3 grid grid-cols-3 gap-4 text-white">
-      <div className="col-span-full sm:col-span-1 p-4 bg-secondary rounded">
+      <div className="hidden col-span-full sm:col-span-1 p-4 bg-secondary rounded">
         <h3 className="text-xl font-serif mb-2"></h3>
         <ul className="space-y-2">
           <li>
@@ -18,7 +18,7 @@ export default function Footer() {
         </ul> 
       </div>
 
-      <div className="col-span-full sm:col-span-1 p-4 bg-secondary rounded">
+      <div className="col-span-full md:col-span-1 md:col-end-1.5 p-4 bg-secondary rounded">
         <h3 className="text-xl font-serif mb-2">Quarterly Learnings</h3>
         <ul className="space-y-2">
           <li><Link href="/"><a className="text-accent hover:underline hidden">About Us</a></Link></li>
@@ -26,8 +26,8 @@ export default function Footer() {
         </ul>
       </div>
 
-      <div className="col-span-full sm:col-span-1 p-4 bg-secondary rounded">
-        <h3 className="text-xl font-serif mb-2">Contact</h3>
+      <div className="col-span-full md:col-span-1 md:col-end-4 p-4 bg-secondary rounded">
+        <h3 className="text-xl font-serif mb-2">Email</h3>
         <p className="font-sans mb-2">info@quarterlylearnings.com</p>
         <div className="flex items-center justify-around text-4xl">
           <Link href="/podcast">
@@ -41,7 +41,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <section className="text-primary">
+      <section className="col-span-full text-primary">
         <p>© 2024 Quarterly Learnings. All rights reserved.</p>
       </section>
     </footer>
